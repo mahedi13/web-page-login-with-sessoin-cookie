@@ -1,0 +1,155 @@
+body{
+	font-family:arial,sans-serif;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+#Maindiv{
+	width: 100%;
+	height: 650px;
+	background: url(img1.png);
+	background-size: cover;
+}
+#navdiv{
+	opacity: 0.7;
+	filter:(opacity=70);
+}
+#navdiv ul{
+	width: 100%;
+	height: 80px;
+	background: #648DA0;
+	background: rgba(100,100,100,.6);
+	line-height: 80px;
+	color:white;
+	margin-left: :15px;
+} 
+#navdiv ul a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+
+	padding: 20px;
+
+}
+#navdiv ul li{
+	list-style-type: none ;
+ 	
+	display: inline-block;
+	float:left;
+	text-align: center;
+}
+#navdiv ul li:hover{
+	background: #8FB0BF;
+	background: rgba(200,200,100,.8);
+
+	transition:all 0.40s;
+} 
+#navdiv h2{
+	width:600px;
+	float: left;
+	color:white;
+	margin-left:5px; 
+}
+#id1 li{
+	float:left;
+	margin-left: 5px;
+	list-style-type: none;
+	display: inline-block;
+    white-space: nowrap;
+    background-color: #2ECC71;
+    background-image: linear-gradient(top, #eee, #2ECC71);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 2 1.5em;
+    margin: 0.2em;
+    font: bold 1em/2em Arial, Helvetica;
+	text-align:center;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    cursor: pointer;
+
+}
+#id1 li:hover {
+    background-color: #ddd; 
+    cursor: pointer;       
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');        
+}
+
+#id1 li:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    cursor: pointer;
+    top: 1px;
+}
+
+#id1 li:focus {
+    outline: 0;
+    cursor: pointer;
+    background: #fafafa;
+}    
+
+#id1 li:before {
+    background: #2ECC71;
+    background: rgba(10,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0px 0px 0px 0px;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(0,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;  
+    cursor: pointer;      
+}
+/* css for register*/
+.header{
+	background-color: #1A3333;
+	background: rgba(0,0,200,0.5);
+	color: white;
+	text-align: center;
+	top:0px;
+	width:50%;
+	padding: 5px;
+}
+.header1{
+	background: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	top:0px;
+	width:100%;
+	padding: 5px;
+	background-size: cover;
+}
+form{
+	width: 40%;
+	padding: 30px;
+	border: 3px solid white;
+	margin: 5px auto;
+}
+#id2{
+	width:100%;
+	background: rgba(0,0,0,.5);
+}
+#id3{
+	text-style:bold;
+}
+#error_msg{
+	width: 50%;  
+	margin: 0px auto; 
+	height: 30px; 
+	border: 1px solid #FF0000; 
+	background: #FFB9B8; 
+	background: rgba(0,0,0,.5);
+	color: #FF0000;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+
